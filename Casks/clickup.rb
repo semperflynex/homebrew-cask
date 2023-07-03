@@ -16,6 +16,8 @@ cask "clickup" do
     strategy :electron_builder
   end
 
+  auto_updates true
+
   app "ClickUp.app"
 
   zap trash: [
